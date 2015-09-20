@@ -1,0 +1,181 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 0px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-weight: 300;
+	-webkit-font-smoothing: antialiased;
+
+}
+
+
+.main_navigation{
+	position: fixed;
+	width: 100%;
+	background-color: white;
+	height: 70px;
+	border-bottom-width: 1px;
+	border-color: #C5C5C5;
+	border-bottom-style: solid;
+}
+
+
+.main_navigation img, .main_navigation ul{
+	position: fixed;
+}
+
+.main_navigation img{
+	height: 39px;
+	left: 20%;
+	margin: 15px;
+}
+
+.main_navigation ul{
+	right: 20%;
+}
+
+.main_navigation li{
+	display: inline-block;
+	margin: 25px 12px;
+	font-size: 16.5px;
+	color: #999999;
+	font-weight: 400;
+	transition: color 0.05s ease;
+}
+
+.main_navigation .active{
+	font-weight: 500;
+	color: #444444;
+}
+
+.main_navigation li:hover{
+	color: #444444;
+	cursor: pointer;
+}
+
+
+.karma_intro{
+	height: 725px;
+	background-image: url('../Karma Recreate_images/Karma Recreate Background Image Edit.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	overflow: auto;
+}
+
+.intro_text{
+	margin-top: 273px;
+}
+
+.karma_intro h1, .karma_intro h3{
+	color: white;
+	margin: 12px;
+}
+
+.karma_intro h1{
+	font-size: 50.25px;
+	letter-spacing: -0.5px;
+}
+
+.karma_intro h3{
+	font-size: 25px;
+	letter-spacing: -0.05px;
+}
+
+.learn_more_button{
+	background-color: #f15b2a;
+	transition: background-color 0.08s ease;
+	border-style: none;
+	border-radius: 3px;
+	height: 52px;
+	width: 153px;
+	margin-top: 10px;
+}
+
+.learn_more_button:hover{
+	background-color: #d9400e;
+}
+
+.learn_more_button h4{
+	font-weight: 400;
+	color: white;
+	font-size: 18px;
+	letter-spacing: -0.05px;
+}
+
+
+.meet_karma_content{
+	margin-top: 126px;
+}
+
+.meet_karma_content h2{
+	font-size: 42px;
+}
+
+.meet_karma_content ul{
+	margin: 10px 40px;
+	list-style-type: none;
+
+}
+
+.meet_karma_content li{
+	display: inline-block;
+	width: 240px;
+	margin: 32px;
+}
+
+.meet_karma_content img{
+	width: 130px;
+}
+
+.meet_karma_content h5{
+	font-size: 23px;
+	font-weight: 400;
+	letter-spacing: -0.5px;
+	margin-top: 20px;
+}
+
+
+.footer_content{
+	width: 90%;
+	margin: 20px auto;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-color: #cccccc;
+}
+
+.footer_content h6{
+	margin-top: 30px;
+	font-weight: 400;
+	font-size: 15px;
+}
+
+.social_links{
+	margin: 20px auto;
+}
+
+.fa-instagram, .fa-facebook, .fa-twitter{
+	width: 16px;
+	height: 16px;
+	margin-top: 4px;
+	color: #f15b2a;
+}
+
+.circle{
+	display: inline-block;
+	width: 26px;
+	height: 26px;
+	border-radius: 50%;
+	background-color: white;
+	margin: 6px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #cccccc;
+}
+
+.footer_content p{
+	color: #999999;
+	font-size: 14px;
+	letter-spacing: 0.08px;
+}
